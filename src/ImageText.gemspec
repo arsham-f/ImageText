@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://arsh.am'
   s.license       = 'MIT'
   s.executables << 'imagetext'
+  s.requirements << 'libmagicdev, RMagick'
 end
