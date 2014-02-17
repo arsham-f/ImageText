@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require "ImageText"
+
+if !ARGV.length.between?(1,2)
+	puts "Bad input"
+	exit
+end
+
+width = ARGV.length == 2 ? ARGV[1] : 100
+IT = ImageText.new(ARGV[0], width)
+
+print IT.texify()
