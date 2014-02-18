@@ -4,10 +4,13 @@ ImageText
 **Requirements**
 
 - ImageMagick development library
+
 `apt-get install libmagick9-dev` on Debian or `brew install imagemagick` on OS X
 
-- RMagick gem
-`https://github.com/rmagick/rmagick`
+- [RMagick gem](https://github.com/rmagick/rmagick)
+
+`gem install rmagick`
+
 
 
 **Installation**
@@ -19,6 +22,7 @@ ImageText
 `imagetext [filepath] [max width = 100]`
 
 For example, processing a simple text image such as [this one][1],
+
 `imagetext hello_world.jpg`
 
 ![Hello World][2]
