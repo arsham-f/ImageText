@@ -16,3 +16,9 @@ end
 def gray_scale(hex)
 	return average_colour(hex) / "FFFF".to_i(16)
 end
+
+def panic(message)
+	puts "FATAL ERROR"
+	puts message
+	exit
+end

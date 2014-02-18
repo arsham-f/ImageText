@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ImageText'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2014-02-17'
   s.summary     = "ImageText"
   s.description = "Turn images into ASCII art"

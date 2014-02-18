@@ -2,7 +2,7 @@
 require "ImageText"
 
 if !ARGV.length.between?(1,2)
-	puts "Bad input"
+	puts "Usage: imagetext [path to image] [max width = 100]"
 	exit
 end
 
